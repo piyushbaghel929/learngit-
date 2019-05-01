@@ -1,3 +1,15 @@
-git config --global user.email "piyushbaghel929@gmail.com"
-git config --global user.name "piyush baghel"
-git init(To make project git project)
+git config --global user.email "piyushbaghel929@gmail.com".
+
+git config --global user.name "piyush baghel".
+
+git init(To make project git project).
+
+git status(Tell about what files is in the staging area and see what files are untracked).
+
+git add -A(it will add files which is in the staging area and files which are untracked).
+
+git commit -m "index.html & style.css added"(when we are doing changes in one file and commit then a snapshot created then we will changes in second file then snapshot created so while doing this if some error occur in file2 so what we can do with this command we can see the changes what happen between file1 & file2 actually we see the snapshot).
+
+git remote add origin https://github.com/piyushbaghel929/learngit-.git(it will only link your code or snapshot to git).
+
+git push origin master(it will push your files, code & project to the website)
